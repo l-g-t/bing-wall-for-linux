@@ -9,11 +9,12 @@ fi
 
 # if the argument is "uninstall", remove the cron job and exit
 if [ "$1" = "uninstall" ]; then
-    echo "Removing cron job"
-    crontab -l | grep -v '/usr/local/bin/bing-wallpaper.sh' | head -1 | crontab -
     sudo rm /usr/local/bin/bing-wallpaper.sh
     exit 0
 fi
+
+echo "Removing cron job"
+crontab -l | grep -v '/usr/local/bin/bing-wallpaper.sh' | head -1 | crontab -
 
 # Create the script file
 cat >bing-wallpaper.sh <<EOF
