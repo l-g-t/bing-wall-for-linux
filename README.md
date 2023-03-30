@@ -28,7 +28,7 @@ sudo chmod +x bwfl_install.sh && \
 To uninstall, run the following command:
 
 ```bash
-sudo ./bwfl_install.sh --uninstall
+sudo ./bwfl_install.sh uninstall
 ```
 
 ## Disclaimer
