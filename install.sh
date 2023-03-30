@@ -11,7 +11,7 @@ fi
 if [ "$1" = "uninstall" ]; then
     echo "Removing cron job"
     crontab -l | grep -v '/usr/local/bin/bing-wallpaper.sh' | head -1 | crontab -
-    rm /usr/local/bin/bing-wallpaper.sh
+    sudo rm /usr/local/bin/bing-wallpaper.sh
     exit 0
 fi
 
@@ -40,10 +40,10 @@ fi
 EOF
 
 # Move the script to /usr/local/bin
-mv bing-wallpaper.sh /usr/local/bin/bing-wallpaper.sh
+sudo mv bing-wallpaper.sh /usr/local/bin/bing-wallpaper.sh
 
 # Make the script executable
-chmod +x /usr/local/bin/bing-wallpaper.sh
+sudo chmod +x /usr/local/bin/bing-wallpaper.sh
 
 # Create a cron job to run the script every hour
 jobstring="0 * * * * /usr/local/bin/bing-wallpaper.sh"
