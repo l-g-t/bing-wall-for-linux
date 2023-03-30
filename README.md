@@ -20,7 +20,7 @@ To install, run the following command:
 ```bash
 curl -s https://raw.githubusercontent.com/crixodia/bing-wall-for-linux/main/install.sh > bwfl_install.sh && \
 sudo chmod +x bwfl_install.sh && \
-sudo ./bwfl_install.sh
+./bwfl_install.sh
 ```
 
 ## Uninstallation
