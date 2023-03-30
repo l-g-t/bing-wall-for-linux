@@ -49,6 +49,8 @@ sudo chmod +x /usr/local/bin/bing-wallpaper.sh
 
 # Create a cron job to run the script every hour
 jobstring="0 * * * * /usr/local/bin/bing-wallpaper.sh"
+jobstring+="
+@reboot /usr/local/bin/bing-wallpaper.sh"
 
 # Check if the job already exists
 if crontab -l | grep -q "$jobstring"; then
