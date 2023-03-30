@@ -18,7 +18,9 @@ This is a simple script that downloads the Bing Wallpaper of the day and sets it
 To install, run the following command:
 
 ```bash
-curl -s https://raw.githubusercontent.com/crixodia/bing-wall-for-linux/main/install.sh > bwfl_install.sh && sudo chmod +x install.sh && sudo ./install.sh
+curl -s https://raw.githubusercontent.com/crixodia/bing-wall-for-linux/main/install.sh > bwfl_install.sh && \
+sudo chmod +x bwfl_install.sh && \
+sudo ./bwfl_install.sh
 ```
 
 ## Uninstallation
