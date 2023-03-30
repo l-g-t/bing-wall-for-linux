@@ -18,7 +18,7 @@ This is a simple script that downloads the Bing Wallpaper of the day and sets it
 To install, run the following command:
 
 ```bash
-curl -s https://raw.githubusercontent.com/crixodia/bing-wall-for-linux/main/install.sh | sudo bash
+curl -s https://raw.githubusercontent.com/crixodia/bing-wall-for-linux/main/install.sh | bash
 ```
 
 ## Uninstallation
@@ -26,7 +26,7 @@ curl -s https://raw.githubusercontent.com/crixodia/bing-wall-for-linux/main/inst
 To uninstall, run the following command:
 
 ```bash
-curl -s https://raw.githubusercontent.com/crixodia/bing-wall-for-linux/main/install.sh | sudo bash -s --uninstall
+curl -s https://raw.githubusercontent.com/crixodia/bing-wall-for-linux/main/install.sh | bash -s --uninstall
 ```
 
 ## Disclaimer
