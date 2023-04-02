@@ -3,19 +3,14 @@
 This is a simple script that downloads the Bing Wallpaper of the day and sets it as your desktop wallpaper on Linux. It also creates a cron job to update the wallpaper every hour.
 
 - [Bing Wallpaper for Linux](#bing-wallpaper-for-linux)
-  - [Supported Desktop Environments](#supported-desktop-environments)
-  - [Installation](#installation)
-  - [Uninstallation](#uninstallation)
+  - [Suported Desktop Environments](#suported-desktop-environments)
+  - [Install](#install)
+  - [Uninstall](#uninstall)
   - [Disclaimer](#disclaimer)
 
-
-## Supported Desktop Environments
-
-- [![GNOME](https://img.shields.io/badge/GNOME-4B4C5D?style=flat&logo=gnome)](https://www.gnome.org/)
-
-## Installation
-
-To install, run the following command:
+## Suported Desktop Environments
+[![GNOME](https://img.shields.io/badge/GNOME-4B4C5D?style=flat&logo=gnome)](https://www.gnome.org/)
+## Install
 
 ```bash
 curl -s https://raw.githubusercontent.com/crixodia/bing-wall-for-linux/main/install.sh > bwfl_install.sh && \
@@ -23,7 +18,7 @@ sudo chmod +x bwfl_install.sh && \
 ./bwfl_install.sh
 ```
 
-## Uninstallation
+## Uninstall
 
 To uninstall, run the following command:
 
