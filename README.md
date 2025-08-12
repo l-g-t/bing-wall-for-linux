@@ -9,11 +9,11 @@ This is a simple script that downloads the Bing Wallpaper of the day and sets it
   - [Disclaimer](#disclaimer)
 
 ## Suported Desktop Environments
-[![GNOME](https://img.shields.io/badge/GNOME-4B4C5D?style=flat&logo=gnome)](https://www.gnome.org/)
+[![GNOME](https://img.shields.io/badge/GNOME-4B4C5D?style=flat&logo=gnome)](https://www.gnome.org/)  KED  XFce
 ## Install
 
 ```bash
-curl -s https://raw.githubusercontent.com/crixodia/bing-wall-for-linux/main/install.sh > bwfl_install.sh && \
+curl -s https://raw.githubusercontent.com/l-g-t/bing-wall-for-linux/main/install.sh > bwfl_install.sh && \
 sudo chmod +x bwfl_install.sh && \
 ./bwfl_install.sh
 ```
